@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.note {
+    background: #fff;
+    border-radius: 7px;
+    width: 270px;
+    margin: auto;
+    min-height: 120px;
+    height: fit-content;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    /* margin-bottom: 50px !important; */
+
+}
+
+.timeStamp {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    color: rgb(65, 65, 65);
+}
+
+p {
+    padding: 15px 0px 15px 0px;
+    color: rgb(121, 121, 121);
+}
+
+span {
+    color: rgb(65, 65, 65);
+}
+
+
+
+.icon {
+    color: rgb(86, 86, 86);
+    font-size: 22px;
+}
+
+@media (max-width:767px) {
+    .note {
+        width: 90%;
+
+    }
+}

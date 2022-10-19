@@ -1,0 +1,68 @@
+.addModulWrp {
+    height: 320px;
+    width: 90%;
+    margin: auto;
+    z-index: 99;
+    border: 3px solid rgba(253, 190, 0, 255);
+    border-radius: 10px;
+    background: #ffff;
+    position: relative;
+
+
+}
+
+.cancle {
+    height: 25px;
+    width: 25px;
+    border: 2px solid rgba(253, 190, 0, 255);
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgba(253, 190, 0, 255);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-45deg);
+    margin-left: 92%;
+    transform: translateY(-3px);
+    cursor: pointer;
+
+}
+
+.input {
+    width: 90%;
+    margin: 12px;
+    margin-top: 50px;
+    height: 35px;
+    background: rgb(220, 219, 219);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.textarea {
+    width: 90%;
+    margin: 12px 12px 0px 12px;
+    height: 120px;
+    background: rgb(220, 219, 219);
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    resize: none;
+    outline: none;
+    position: relative;
+}
+
+.remaining {
+    position: absolute;
+    color: black;
+    font-weight: 600;
+    float: right;
+    margin-left: 22px;
+    transform: translateY(-50px);
+
+}
+
+.textarea::placeholder {
+    color: black;
+    font-weight: 500;
+}
